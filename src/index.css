@@ -1,0 +1,15 @@
+input{
+  width: 90%;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.list-group-item {
+  transition: 0.3s ease;
+}
+
+.list-group-item:hover {
+  background-color: #f8f9fa;
+  transform: translateY(-3px);
+}
